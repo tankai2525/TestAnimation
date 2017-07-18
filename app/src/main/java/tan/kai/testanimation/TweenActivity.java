@@ -19,11 +19,11 @@ public class TweenActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.button:
+            case R.id.btn_tween:
                 break;
-            case R.id.button1:
+            case R.id.btn_frame:
                 break;
-            case R.id.button2:
+            case R.id.btn_property:
                 break;
         }
     }

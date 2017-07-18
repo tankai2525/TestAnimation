@@ -7,23 +7,23 @@
     tools:context="tan.kai.testanimation.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_tween"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="tween补间动画"
         android:onClick="onClick"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btn_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="frame帧动画"
         android:onClick="onClick"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_property"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="属性动画"
+        android:text="property属性动画"
         android:onClick="onClick"/>
 </LinearLayout>

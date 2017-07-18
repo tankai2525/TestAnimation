@@ -7,7 +7,8 @@ import android.view.View;
 
 /**
  * 动画
- * 分类 1 view动画，2 帧动画，3 属性动画
+ * 3.0之前：1 补间动画 Tween Animation、2 逐帧动画 Frame Animation（也称Drawable Animation ）
+ * 3.0之后：3 属性动画 Property Animation
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -19,12 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.button:
+            case R.id.btn_tween:
                 to(TweenActivity.class);
                 break;
-            case R.id.button1:
+            case R.id.btn_frame:
+                to(FrameActivity.class);
                 break;
-            case R.id.button2:
+            case R.id.btn_property:
                 break;
         }
     }
