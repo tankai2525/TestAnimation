@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="90"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fillAfter="false"
+    android:fillBefore="true"
+    android:repeatMode="reverse"
+    android:repeatCount="1"
+    android:duration="1000">
+    <!--
+        fillAter=true : 是停留动画的最后一帧
+        fillBefore=true : 是恢复到开始状态
+        fromDegrees ：动画开始旋转的角度位置
+        toDegrees : 动画停止旋转的角度位置
+        正值为顺时针方向的度数，负值为逆时针方向的度数
+        pivotX pivotY ：旋转中心点，可以是 数字 百分比 百分比p
+        repeatMode repeatCount ：reverse倒序重播，restart正序重播
+    -->
+
+</rotate>

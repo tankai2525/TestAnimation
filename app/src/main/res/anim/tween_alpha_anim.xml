@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:repeatCount="1"
+    android:duration="3000"
+    />
+<!--
+    fromAlpha 开始不透明偏移量 0.0=透明，1.0=不透明
+    Float. Starting opacity offset, where 0.0 is transparent and 1.0 is opaque.
+
+    toAlpha 结束不透明偏移量
+    Float. Ending opacity offset, where 0.0 is transparent and 1.0 is opaque.
+-->
