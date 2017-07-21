@@ -4,9 +4,9 @@
     android:toDegrees="90"
     android:pivotX="50%"
     android:pivotY="50%"
-    android:fillAfter="false"
-    android:fillBefore="true"
-    android:repeatMode="reverse"
+    android:fillEnabled="true"
+    android:fillBefore="false"
+    android:repeatMode="restart"
     android:repeatCount="1"
     android:duration="1000">
     <!--
@@ -16,7 +16,8 @@
         toDegrees : 动画停止旋转的角度位置
         正值为顺时针方向的度数，负值为逆时针方向的度数
         pivotX pivotY ：旋转中心点，可以是 数字 百分比 百分比p
-        repeatMode repeatCount ：reverse倒序重播，restart正序重播
+        repeatMode ：reverse倒序重播，restart正序重播
+        repeatCount ：重复次数
     -->
 
 </rotate>

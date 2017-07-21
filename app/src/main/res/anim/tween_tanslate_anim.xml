@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/overshoot_interpolator"
+    android:fillAfter="true"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:toXDelta="500"
+    android:toYDelta="500"
+    android:duration="3000">
+    <!--
+        fromXDelta fromYDelta : 开始x,y的位置 可以是数值，百分比，百分比p
+        toXDelta toYDelta : 结束x,y位置
+    -->
+</translate>

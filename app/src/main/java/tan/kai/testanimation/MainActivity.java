@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 to(FrameActivity.class);
                 break;
             case R.id.btn_property:
+                to(PropertyActivity.class);
                 break;
         }
     }

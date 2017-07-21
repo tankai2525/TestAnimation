@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="2.0"
+    android:fromYScale="2.0"
+    android:toXScale="1.0"
+    android:toYScale="1.0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatMode="reverse"
+    android:repeatCount="2"
+    android:fillAfter="true"
+    android:duration="3000">
+    <!--
+        fromXScale fromYScale : 开始的 x y 方向上相对自身的缩放比例。1.0无变化，0.5缩小一倍，2.0放大一倍
+        toXScale toYScale : 结束的 x y 方向上相对自身的缩放比例。
+        pivotX pivotY : 缩放中心点
+    -->
+</scale>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="3000"/>
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0"
+        android:duration="3000"/>
+
+    <rotate
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="720"
+        android:duration="3000"/>
+
+    <translate
+        android:startOffset="3000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="200"
+        android:toYDelta="0"
+        android:duration="3000" />
+
+    <alpha
+        android:startOffset="6000"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"
+        android:duration="1000"/>
+
+    <!--
+        startOffset : 动画运行前的延迟毫秒数
+    -->
+</set>
